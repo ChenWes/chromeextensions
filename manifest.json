@@ -1,0 +1,28 @@
+{
+	"name": "淘宝买家信誉查询",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "蔓曼家居",
+	"browser_action": {
+		"default_title": "蔓曼家居",
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"16": "icon-16.png",
+		"48": "icon-48.png",
+		"128": "icon-128.png"
+	},
+	"permissions": [
+		"contextMenus",
+		"notifications",
+		"tabs",
+		"https://*/*",
+		"http://*/*"
+	],
+	"background": {
+		"scripts": [
+			"bg.js"
+		]
+	}
+}
